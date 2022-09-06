@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    font-family: Curset Timer ULiL;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
+
+p {
+    font-size: 25px;
+    font-family: Cursed Timer ULiL;
+}
+
+#score, #guest-score {
+    background: #080001;
+    max-width: 80%;
+    max-height: 80%;
+    padding: 25%;
+    color: #F94F6D;
+    text-align: center;
+    margin: 0;
+}
+
+#increment-btn {
+    display: inline;
+    background: #1B244A;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    margin: 10px 2px;
+}
